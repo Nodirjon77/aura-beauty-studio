@@ -77,4 +77,4 @@ This is a portfolio/demo project. Design and code are free to reference; stock i
 
 ---
 
-Built by [Your Name] — [portfolio/contact link]
+Built by Nodir JON — https://nodirjon77.github.io/portfolio/
