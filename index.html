@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA — Premium Beauty Studio</title>
+  <meta name="description"
+    content="AURA Beauty Studio — personalized care, premium products, skilled hands. Book your visit today.">
+
+  <!-- SEO / Social -->
+  <meta property="og:title" content="AURA — Premium Beauty Studio">
+  <meta property="og:description"
+    content="Beauty as a daily ritual. Discover AURA's hair, skincare, nails, and makeup services.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#FBF6F3">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="header" id="header">
+    <div class="header__container">
+      <a href="#hero" class="header__logo">AURA</a>
+
+      <nav class="header__nav" id="header-nav" aria-label="Main navigation">
+        <ul class="header__nav-list">
+          <li><a href="#philosophy" class="header__nav-link">Philosophy</a></li>
+          <li><a href="#services" class="header__nav-link">Services</a></li>
+          <li><a href="#portfolio" class="header__nav-link">Portfolio</a></li>
+          <li><a href="#process" class="header__nav-link">Process</a></li>
+          <li><a href="#testimonials" class="header__nav-link">Reviews</a></li>
+          <li><a href="#contact" class="header__nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="header__cta btn btn--gold">Book a Visit</a>
+
+      <button class="header__burger" id="burger-btn" aria-label="Open menu" aria-expanded="false"
+        aria-controls="header-nav">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== 1. HERO ==================== -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero__media">
+        <img src="assets/images/hero-bg.jpg" alt="" class="hero__image" role="presentation" fetchpriority="high">
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">Beauty as a Daily Ritual</p>
+        <h1 class="hero__title">AURA</h1>
+        <p class="hero__subtitle">Where personalized care meets timeless artistry</p>
+        <a href="#contact" class="btn btn--gold hero__cta">Book a Visit</a>
+      </div>
+
+      <a href="#philosophy" class="hero__scroll-hint" aria-label="Scroll to next section">
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ==================== 2. PHILOSOPHY ==================== -->
+    <section class="philosophy" id="philosophy" aria-label="Our approach">
+      <div class="philosophy__container">
+        <p class="section-eyebrow">Our Approach</p>
+        <h2 class="section-title">Care, Crafted Around You</h2>
+        <div class="divider divider--center" aria-hidden="true"></div>
+
+        <div class="philosophy__grid">
+          <article class="philosophy-card">
+            <div class="philosophy-card__icon" aria-hidden="true">✦</div>
+            <h3 class="philosophy-card__title">Personalized Care</h3>
+            <p class="philosophy-card__text">Every treatment begins with a conversation — your skin, your hair, your
+              goals shape the plan we create together.</p>
+          </article>
+
+          <article class="philosophy-card">
+            <div class="philosophy-card__icon" aria-hidden="true">✦</div>
+            <h3 class="philosophy-card__title">Premium Products</h3>
+            <p class="philosophy-card__text">We work exclusively with clean, professional-grade formulas sourced for
+              performance and integrity.</p>
+          </article>
+
+          <article class="philosophy-card">
+            <div class="philosophy-card__icon" aria-hidden="true">✦</div>
+            <h3 class="philosophy-card__title">Skilled Hands</h3>
+            <p class="philosophy-card__text">Our specialists bring years of refined technique and an eye for detail to
+              every appointment.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. SERVICES ==================== -->
+    <section class="services" id="services" aria-label="Services">
+      <div class="services__container">
+        <p class="section-eyebrow">What We Offer</p>
+        <h2 class="section-title">Our Services</h2>
+        <div class="divider divider--center" aria-hidden="true"></div>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <img src="assets/images/service-hair.jpg" alt="Hair styling service" class="service-card__image"
+              loading="lazy">
+            <h3 class="service-card__title">Hair</h3>
+            <p class="service-card__text">Cut, color, and styling tailored to your texture and lifestyle.</p>
+          </article>
+
+          <article class="service-card">
+            <img src="assets/images/service-skincare.jpg" alt="Skincare and facial treatment"
+              class="service-card__image" loading="lazy">
+            <h3 class="service-card__title">Skincare &amp; Facials</h3>
+            <p class="service-card__text">Results-driven facials designed around your skin's unique needs.</p>
+          </article>
+
+          <article class="service-card">
+            <img src="assets/images/service-nails.jpg" alt="Nail care service" class="service-card__image"
+              loading="lazy">
+            <h3 class="service-card__title">Nails</h3>
+            <p class="service-card__text">Precision manicures and pedicures with long-lasting finishes.</p>
+          </article>
+
+          <article class="service-card">
+            <img src="assets/images/service-makeup.jpg" alt="Makeup application service" class="service-card__image"
+              loading="lazy">
+            <h3 class="service-card__title">Makeup</h3>
+            <p class="service-card__text">From natural everyday looks to full editorial glam.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. PORTFOLIO ==================== -->
+    <section class="portfolio" id="portfolio" aria-label="Selected works">
+      <div class="portfolio__container">
+        <p class="section-eyebrow">Our Work</p>
+        <h2 class="section-title">Selected Works</h2>
+        <div class="divider divider--center" aria-hidden="true"></div>
+
+        <div class="portfolio__filters" role="tablist" aria-label="Filter portfolio by category">
+          <button class="portfolio__filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="portfolio__filter-btn" data-filter="hair" role="tab" aria-selected="false">Hair</button>
+          <button class="portfolio__filter-btn" data-filter="skin" role="tab" aria-selected="false">Skin</button>
+          <button class="portfolio__filter-btn" data-filter="nails" role="tab" aria-selected="false">Nails</button>
+          <button class="portfolio__filter-btn" data-filter="makeup" role="tab" aria-selected="false">Makeup</button>
+        </div>
+
+        <div class="portfolio__grid" id="portfolio-grid">
+          <figure class="portfolio-item" data-category="hair">
+            <img src="assets/images/portfolio-hair-1.jpg" alt="Hair styling work sample 1" class="portfolio-item__image"
+              loading="lazy">
+            <figcaption class="portfolio-item__caption">Editorial Balayage</figcaption>
+          </figure>
+
+          <figure class="portfolio-item" data-category="skin">
+            <img src="assets/images/portfolio-skin-1.jpg" alt="Facial treatment result sample"
+              class="portfolio-item__image" loading="lazy">
+            <figcaption class="portfolio-item__caption">Glow Facial Result</figcaption>
+          </figure>
+
+          <figure class="portfolio-item" data-category="nails">
+            <img src="assets/images/portfolio-nails-1.jpg" alt="Nail art design sample" class="portfolio-item__image"
+              loading="lazy">
+            <figcaption class="portfolio-item__caption">Minimal Nail Art</figcaption>
+          </figure>
+
+          <figure class="portfolio-item" data-category="makeup">
+            <img src="assets/images/portfolio-makeup-1.jpg " alt="Bridal makeup sample" class="portfolio-item__image"
+              loading="lazy">
+            <figcaption class="portfolio-item__caption">Bridal Look</figcaption>
+          </figure>
+
+          <figure class="portfolio-item" data-category="hair">
+            <img src="assets/images/portfolio-hair-2.jpg" alt="Hair cut and style sample" class="portfolio-item__image"
+              loading="lazy">
+            <figcaption class="portfolio-item__caption">Textured Bob</figcaption>
+          </figure>
+
+          <figure class="portfolio-item" data-category="makeup">
+            <img src="assets/images/portfolio-makeup-2.jpg" alt="Evening makeup sample" class="portfolio-item__image"
+              loading="lazy">
+            <figcaption class="portfolio-item__caption">Evening Glam</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. PROCESS ==================== -->
+    <section class="process" id="process" aria-label="Our process">
+      <div class="process__container">
+        <p class="section-eyebrow">How It Works</p>
+        <h2 class="section-title">Our Process</h2>
+        <div class="divider divider--center" aria-hidden="true"></div>
+
+        <ol class="process__steps">
+          <li class="process-step">
+            <span class="process-step__number">01</span>
+            <h3 class="process-step__title">Consultation</h3>
+            <p class="process-step__text">We start by listening — understanding your goals, concerns, and lifestyle.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-step__number">02</span>
+            <h3 class="process-step__title">Personalized Plan</h3>
+            <p class="process-step__text">A treatment plan is designed specifically around your needs.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-step__number">03</span>
+            <h3 class="process-step__title">Treatment</h3>
+            <p class="process-step__text">Our specialists deliver the service with precision and care.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-step__number">04</span>
+            <h3 class="process-step__title">Aftercare</h3>
+            <p class="process-step__text">We guide you on maintaining results long after you leave.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==================== 6. TESTIMONIALS ==================== -->
+    <section class="testimonials" id="testimonials" aria-label="Client testimonials">
+      <div class="testimonials__container">
+        <p class="section-eyebrow">Client Stories</p>
+        <h2 class="section-title">What They Say</h2>
+        <div class="divider divider--center" aria-hidden="true"></div>
+
+        <div class="testimonials__grid">
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__text">"The most attentive, personalized service I've experienced. AURA feels
+              like a ritual, not just an appointment."</p>
+            <footer class="testimonial-card__author">— Amira K.</footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__text">"Skilled hands and genuine care. My hair has never looked or felt better."
+            </p>
+            <footer class="testimonial-card__author">— Diana S.</footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__text">"From consultation to aftercare, everything felt thoughtful and premium."
+            </p>
+            <footer class="testimonial-card__author">— Laylo M.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. CONTACT ==================== -->
+    <section class="contact" id="contact" aria-label="Book a visit">
+      <div class="contact__container">
+        <div class="contact__info">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 class="section-title">Book Your Visit</h2>
+          <div class="divider" aria-hidden="true"></div>
+
+          <address class="contact__details">
+            <p class="contact__detail"><strong>Address:</strong> 12 Mirobod Street, Tashkent</p>
+            <p class="contact__detail"><strong>Hours:</strong> Tue–Sun, 10:00 – 20:00</p>
+            <p class="contact__detail"><strong>Phone:</strong> <a href="tel:+998901234567">+998 90 123 45 67</a></p>
+          </address>
+        </div>
+
+        <form class="contact__form" id="booking-form" novalidate>
+          <div class="form-group">
+            <label for="name" class="form-group__label">Full Name</label>
+            <input type="text" id="name" name="name" class="form-group__input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone" class="form-group__label">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="form-group__input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="service" class="form-group__label">Service</label>
+            <select id="service" name="service" class="form-group__input" required>
+              <option value="">Select a service</option>
+              <option value="hair">Hair</option>
+              <option value="skincare">Skincare &amp; Facials</option>
+              <option value="nails">Nails</option>
+              <option value="makeup">Makeup</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-group__label">Message (optional)</label>
+            <textarea id="message" name="message" class="form-group__input" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--gold contact__submit">Book Now</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer__container">
+      <a href="#hero" class="footer__logo">AURA</a>
+      <p class="footer__tagline">Beauty as a daily ritual.</p>
+
+      <ul class="footer__social" aria-label="Social media links">
+        <li><a href="#" class="footer__social-link" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" class="footer__social-link" aria-label="Facebook">Facebook</a></li>
+      </ul>
+
+      <p class="footer__copyright">&copy; 2026 AURA Beauty Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>

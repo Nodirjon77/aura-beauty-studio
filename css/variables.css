@@ -1,0 +1,68 @@
+/* ==========================================================================
+   AURA — Design Tokens
+   Barcha rang, tipografiya va spacing qiymatlari shu yerda markazlashtirilgan.
+   Boshqa CSS fayllarida faqat shu o'zgaruvchilar ishlatiladi (hardcode yo'q).
+   ========================================================================== */
+
+:root {
+    /* ---------- Color Palette ---------- */
+    --color-bg: #FBF6F3;
+    /* Ivory-blush background */
+    --color-dark: #241E1B;
+    /* Espresso-charcoal — text, dark sections */
+    --color-accent: #E3B9B2;
+    /* Soft pink accent */
+    --color-gold: #AD8656;
+    /* Muted gold — CTA, dividers, highlights */
+    --color-text-muted: #8C8177;
+    /* Stone-gray — secondary text */
+
+    /* Derived / utility shades */
+    --color-white: #FFFFFF;
+    --color-overlay: rgba(36, 30, 27, 0.55);
+    /* Hero image dark overlay */
+    --color-border-subtle: rgba(173, 134, 86, 0.25);
+    /* gold, low opacity */
+    --color-surface-warm: #F1E4DA;
+    /* Soft warm beige — used instead of dark charcoal for Contact/Footer */
+
+    /* ---------- Typography ---------- */
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Inter', sans-serif;
+
+    --fs-h1: clamp(2.5rem, 5vw + 1rem, 4.5rem);
+    --fs-h2: clamp(1.8rem, 3vw + 1rem, 3rem);
+    --fs-h3: clamp(1.3rem, 2vw + 1rem, 1.75rem);
+    --fs-body: 1rem;
+    --fs-small: 0.875rem;
+
+    --lh-heading: 1.15;
+    --lh-body: 1.6;
+
+    /* ---------- Spacing Scale (8px base) ---------- */
+    --space-xs: 0.5rem;
+    /* 8px */
+    --space-sm: 1rem;
+    /* 16px */
+    --space-md: 1.5rem;
+    /* 24px */
+    --space-lg: 2.5rem;
+    /* 40px */
+    --space-xl: 4rem;
+    /* 64px */
+    --space-2xl: 6rem;
+    /* 96px */
+
+    /* ---------- Layout ---------- */
+    --container-max: 1200px;
+    --container-padding: clamp(1.25rem, 5vw, 3rem);
+
+    /* ---------- Effects ---------- */
+    --transition-base: 0.3s ease;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+
+    /* Signature motif: thin gold thread divider */
+    --divider-gold-height: 1px;
+    --divider-gold-width: 60px;
+}
